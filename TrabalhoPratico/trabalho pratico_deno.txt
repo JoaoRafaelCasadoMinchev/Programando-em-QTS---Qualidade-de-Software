@@ -1,0 +1,19 @@
+trabalho pratico
+criar codigos de teste 
+
+Para a funções abaixo:
+
+assertEquals
+assertArrayIncludes
+assertStringIncludes
+
+ao termino entregar para o professor via pen drive disponibilizado pelo professor
+escrever o passo a passo da ultima aula
+-testar node
+-instalar o deno
+-criar pasta 
+-entrar na pasta
+-entrar no vscode
+
+link recomendado
+https://www.youtube.com/watch?v=W3rafmztQeE
