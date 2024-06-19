@@ -6,19 +6,19 @@ import {
 } from "https://deno.land/std/testing/asserts.ts" 
 
 //AssertEquals
-Deno.test("Olá Amigos a = 10", () => {
+Deno.test("Assert Equals a = 10", () => {
     const a = 20/2
     assertEquals(a, 10)
 })
 
 //AssertStringIncludes
-Deno.test("Teste Assert String", () => {
-    assertStringIncludes("Hello World", "Hello")
+Deno.test("Assert String", () => {
+    assertStringIncludes("Salve Manos", "Salve")
 })
 
 //AssertArrayIncludes
-Deno.test("Teste Assert Array", () => {
+Deno.test("Assert Array", () => {
     assertArrayIncludes([1, 2, 3], [1])
     assertArrayIncludes([1, 2, 3], [1, 2])
-    assertArrayIncludes(Array.from("Hello World"), Array.from("Hello"))
+    assertArrayIncludes(Array.from("Salve Manos"), Array.from("Salve"))
 })
